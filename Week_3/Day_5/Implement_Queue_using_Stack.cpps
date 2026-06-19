@@ -3,11 +3,11 @@ public:
     stack<int>in;
     stack<int>out;   
     
-    void push(int x) {
+    void push(int x){
         in.push(x);
     }
     
-    int pop() {
+    int pop(){
         if(out.empty())
             while(!in.empty())
             {
